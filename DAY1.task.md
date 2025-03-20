@@ -69,13 +69,15 @@ sudo systemctl status jenkins
 ## Setting up a Nginx freestyle project in Jenkins
  - In Jenkins home page click on `create a job`
 
-![1](https://github.com/user-attachments/assets/90d7c7fb-50ed-4bd3-93f4-5afb45a29734)
+![Screenshot from 2025-03-18 10-55-16](https://github.com/user-attachments/assets/cb84222c-0fa5-4681-8f65-bccc0c5ca8b6)
+)
 
  - Enter a project name
  - Select `Freestyle Project`
  - Click `Ok`
 
-![1](https://github.com/user-attachments/assets/03d4672d-21e5-467f-9742-035c662784b8)
+![Screenshot from 2025-03-20 10-18-58](https://github.com/user-attachments/assets/a8192bfb-778b-4dc5-bbd8-4f1d97efa0e5)
+)
 
  - In the next page scroll down to `Build Steps`
  - Click `Add Build Step`
@@ -104,9 +106,10 @@ systemctl status nginx
 
  - Click `Build Now` in the left side panel
    
-![1](https://github.com/user-attachments/assets/290bb3be-cf50-40e8-b42e-a1cc9e2f2341)
+![Screenshot from 2025-03-20 10-57-40](https://github.com/user-attachments/assets/beae2262-062a-40a3-8793-6222cd4db7e7)
+
 
  - Your first Nginx project using Jenkins is successfully deployed!
  - Click on the Build in `Builds` and click on the `Console Output` to view the logs
    ![Screenshot from 2025-03-20 09-02-54](https://github.com/user-attachments/assets/ab594226-fca6-447a-bcba-146901df00a7)
-)
+
